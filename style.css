@@ -1,0 +1,154 @@
+h1{
+    display: block;
+    position: fixed;
+      z-index: 1;
+    top: 5%;
+    left: 40%;
+    right: 40%;
+    width: 300px;
+    font-family: "Sixtyfour", sans-serif;
+    color: rgb(215, 23, 62);
+    text-align: center;
+    border: 10px red double;
+    padding: 1%;
+    background-color: white;
+}
+
+h2{
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 41%;
+    right: 41%;
+    width: 300px;
+    font-family: "Sixtyfour", sans-serif;
+    color: rgb(215, 23, 62);
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+h3{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    right: 40%;
+    width: 300px;
+    font-family: "Sixtyfour", sans-serif;
+    color: rgb(215, 23, 62);
+    text-align: center;
+}
+
+root {
+  scroll-behavior: smooth;
+}
+
+#bag{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+    right: 36%;
+    width: 600px;
+}
+
+#sketchbook{
+    position: absolute;
+    top: 700px;
+    left: 37%;
+    right: 37%;
+    width: 500px;
+}
+
+#sketch{
+    display: block;
+    position: fixed;
+    top: -1px;
+    left: 37%;
+    width: 500px;
+}
+
+#pencilcase{
+    position: relative;
+    top: 1100px;
+    left: 37%;
+    right: 37%;
+    width: 500px;
+}
+
+#case{
+    display: block;
+    position: fixed;
+    top: 25px;
+    left: 36%;
+    width: 500px;
+}
+
+#zyrtec{
+    position: absolute;
+    top: 1450px;
+    left: 37%;
+    right: 37%;
+    width: 500px;
+}
+
+#z{
+    display: block;
+    position: fixed;
+    top: 25px;
+    left: 36%;
+    width: 500px;
+}
+
+#camera{
+    position: absolute;
+    top: 1800px;
+    left: 37%;
+    right: 37%;
+    width: 500px;
+}
+
+#cam{
+    display: block;
+    position: fixed;
+    top: 100px;
+    left: 36%;
+    width: 500px;
+}
+
+#headphones{
+     position: absolute;
+    top: 2200px;
+    left: 37%;
+    right: 37%;
+    width: 500px;
+}
+
+#h{
+    display: block;
+    position: fixed;
+    top: 100px;
+    left: 36%;
+    width: 500px;
+}
+
+#pencilcase:hover{
+content: url(img/pencilcasegif.gif);
+}
+
+#sketchbook:hover{
+content: url(img/sketchgif.gif);
+}
+
+#zyrtec:hover{
+ content: url(img/zyrtecgif.gif);
+}
+
+#camera:hover{
+ content: url(img/cameragif.gif);
+}
+
+#headphones:hover{
+ content: url(img/headphonesgif.gif);
+}
